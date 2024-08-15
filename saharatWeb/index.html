@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thai Herb Therapy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light" style="background-color: #2E8B57;">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="logoTest.png" height="100" alt="LOGO">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#herb" class="nav-link">สมุนไพร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#disease" class="nav-link">รักษาตามโรค</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#recipe" class="nav-link">สูตรยาสมุนไพร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#shop" class="nav-link">ร้านขายสมุนไพร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">ติดต่อเรา</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="herb-pic1.png" class="d-block w-100" alt="Herb Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="herb-pic2.png" class="d-block w-100" alt="Herb Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="herb-pic3.png" class="d-block w-100" alt="Herb Image 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section id="herb">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <div class="container mt-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Phyllanthus niruri.png" height="350" class="card-img-top" alt="Phyllanthus Niruri">
+                        <div class="card-body">
+                            <h5 class="card-title">ลูกใต้ใบ</h5>
+                            <p class="card-text">
+                                ใช้แก้ไข้ เป็นสรรพคุณแรก ๆ ของลูกใต้ใบที่คนรู้จักกันมากที่สุดว่า
+                                สามารถแก้ไข้ได้ผลดีเยี่ยม ลูกใต้ใบ จึงมักเป็นสมุนไพรที่พระธุดงค์
+                                มักพกติดตัวในยามออกธุดงค์ เพื่อแก้ไข้หวัด ไข้หวัดใหญ่
+                                ที่อาจเกิดขึ้นได้จากอากาศที่เปลี่ยนแปลง นอกจากนี้ ลูกใต้ใบ
+                                ยังสามารถแก้ไข้จากการอ่อนเพลีย ไข้จับสั่น ได้อีก
+                                โดยวิธีการใช้จะนำลูกใต้ใบไปตากแห้งเก็บใส่โหลไว้
+                                เพื่อชงเป็นชาดื่มเวลาเกิดอาการ
+                            </p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <a data-bs-toggle="modal" data-bs-target="#myModalH01">รายละเอียดเพิ่มเติม</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Houttuynia_cordata.jpg" height="350" class="card-img-top" alt="Houttuynia Cordata">
+                        <div class="card-body">
+                            <h5 class="card-title">พลูคาว</h5>
+                            <p class="card-text">
+                                พลูคาวเป็นพืชที่มีอายุยืนและเป็นพืชสมุนไพรประจำถิ่นที่พบมากในแถบภาคเหนือของไทย
+                                และยังพบในบริเวณเทือกเขาหิมาลัย อินเดีย(india)
+                                เรื่อยมาจนถึงจีน(china) ลาว(laos) เกาหลี(korae)
+                                เวียดนาม(vietnam) และญี่ปุ่น(japan)
+                                ซึ่งถือเป็นพืชตระกูลเดียวกับพลู ชอบขึ้นในพื้นที่ชื้นแฉะ
+                                มีร่มเงาเล็กน้อยและสภาพอากาศเย็น โดยจะมีลักษณะแตกต่างจากพลู คือ
+                                ที่ใต้ใบของพลูคาวจะมีสีแดงอ่อนไปจนถึงสีแดงเข้ม
+                            </p>
+                        </div>
+                        <div class="card-footer text-end">
+                            <a data-bs-toggle="modal" data-bs-target="#myModalH02">รายละเอียดเพิ่มเติม</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Piper_sarmentosum.png" height="350" class="card-img-top" alt="Piper Sarmentosum">
+                        <div class="card-body">
+                            <h5 class="card-title">ชะพลู</h5>
+                            <p class="card-text">
+                                “ชะพลู” เป็นพืชพื้นบ้านที่แพร่หลาย พบในทุกจังหวัดของประเทศไทย
+                                เป็นพืชล้มลุกที่มีอายุสืบต่อได้หลายปี ชอบพื้นที่ลุ่มต่ำ ชื้นแฉะ
+                                ที่ที่มีน้ำดี ดินดี จะเจริญเติบโตได้ดีมาก ใบจะโต ยอดจะอวบอ้วน
+                                เป็นพรรณไม้ที่มีต้นตั้ง บางครั้งจะพบต้นแบบเถาเลื้อย
+                                ระบบรากหากินผิวดิน ถ้าเถาเลื้อยไปพบที่เหมาะ ก็จะออกรากตามข้อ
+                                และแตกต้นขึ้นใหม่ แพร่ขยายต้นไปเรื่อยๆ เมื่อต้องการจะย้ายที่ปลูก
+                                ก็สามารถถอนดึงต้นติดรากไปปลูกได้เลย
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <a data-bs-toggle="modal" data-bs-target="#myModalH03">รายละเอียดเพิ่มเติม</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for ลูกใต้ใบ -->
+    <div class="modal fade" id="myModalH01">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ลูกใต้ใบ</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row row-cols-1 row-cols-sm-2 g-4">
+                        <div class="col">
+                            <img src="1.1.jpg" width="100%">
+                        </div>
+                        <div class="col">
+                            <img src="1.2.jpg" width="100%">
+                        </div>
+                    </div>
+                    <p>ชื่อวิทยาศาสตร์: Phyllanthus amarus Schum & Thonn.</p>
+                    วงศ์ : Euphorbiaceae
+                    ชื่ออื่น: มะขามป้อมดิน, หญ้าใต้ใบ, หญ้าใต้ใบขาว
+                    ลักษณะทางพฤกษศาสตร์:
+                    ลักษณะ: ไม้ล้มลุก สูง 30-60 ซม. ทุกส่วนมีรสขม
+                        ใบ: ใบเรียงสลับระนาบเดียว ใบเดี่ยว รูปวงรีหรือขอบขนาน กว้าง 3-4 มม. ยาว 5-9 มม. โคนใบมน ปลายใบมนหรือแหลม
+                        ดอก: ดอกช่อออกที่ซอกใบ ดอกแยกเพศอยู่บนต้นเดียวกัน ดอกเพศเมียเป็นดอกเดี่ยว ดอกเพศผู้ออกเป็นกระจุก สีนวล
+                        ผล: ผลแห้งแตกได้ กลม ผิวเรียบ
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for พลูคาว -->
+    <div class="modal fade" id="myModalH02">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">พลูคาว</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row row-cols-1 row-cols-sm-2 g-4">
+                        <div class="col">
+                            <img src="2.1.png" width="100%">
+                        </div>
+                        <div class="col">
+                            <img src="2.2.jpg" width="100%">
+                        </div>
+                    </div>
+                    <p>ชื่อวิทยาศาสตร์: Houttuynia cordata Thunb.</p>
+                    วงศ์ : Saururaceae
+                    ชื่ออื่น: พลูคาว, พลูคาวแดง
+                    ลักษณะทางพฤกษศาสตร์:
+                    ลักษณะ: พืชล้มลุก สูง 30-60 ซม. ใบกลม ขอบหยัก
+                        ใบ: ใบเรียงสลับ รูปหัวใจ ขอบหยัก กว้าง 4-6 ซม. ยาว 6-8 ซม.
+                        ดอก: ดอกช่อเป็นช่อเล็กๆ ออกที่ปลายกิ่ง สีขาว
+                        ผล: ผลแห้งแตกได้
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for ชะพลู -->
+    <div class="modal fade" id="myModalH03">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ชะพลู</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row row-cols-1 row-cols-sm-2 g-4">
+                        <div class="col">
+                            <img src="3.1.jpg" width="100%">
+                        </div>
+                        <div class="col">
+                            <img src="3.2.jpg" width="100%">
+                        </div>
+                    </div>
+                    <p>ชื่อวิทยาศาสตร์: Piper sarmentosum Roxb.</p>
+                    วงศ์ : Piperaceae
+                    ชื่ออื่น: ชะพลู, พริกไทยขาว
+                    ลักษณะทางพฤกษศาสตร์:
+                    ลักษณะ: พืชล้มลุก สูง 20-40 ซม. ใบรูปหัวใจ ขอบเรียบ
+                        ใบ: ใบเรียงสลับ รูปหัวใจ ขนาด 5-10 ซม. ยาว 8-12 ซม.
+                        ดอก: ดอกช่อออกที่ปลายกิ่ง สีขาว
+                        ผล: ผลแห้งแตกได้
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Footer -->
+<footer class="bg-dark text-light py-4">
+    <div class="container">
+        <div class="row">
+            <!-- About Us -->
+            <div class="col-md-4">
+                <h5>เกี่ยวกับเรา</h5>
+                <p>
+                    ผมคือ นักศึกษาชั้นปีที่ 3
+                </p>
+            </div>
+            
+            <!-- Contact Information -->
+            <div class="col-md-4">
+                <h5>ติดต่อเรา</h5>
+                <ul class="list-unstyled">
+                    <li><i class="bi bi-telephone"></i> โทรศัพท์: 0966180331</li>
+                    <li><i class="bi bi-envelope"></i> อีเมล: s65122250014ssru@ssru.ac.th </li>
+                    <li><i class="bi bi-geo-alt"></i> ที่อยู่: 123 ดุสิต, กรุงเทพมหานคร, ประเทศไทย</li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="col-md-4">
+                <h5>ติดตามเรา</h5>
+                <a href="https://www.facebook.com/saharat.st.37/" class="text-light me-2"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/sxhxrxt_kxmx/" class="text-light me-2"><i class="bi bi-instagram"></i></a>
+                <a href="" class="text-light"><i class="bi bi-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="text-center py-3">
+        &copy; 2024 สมุนไพรไทย. สงวนลิขสิทธิ์.
+    </div>
+</footer>
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9syF12sW4rC06f8sTn3FZ7ZB6zFJh3H5SYjSoPToN0sNhbUVRBO" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5+Q1xX5p2r4+ql9N+ZKnqF43snoyE9u3cGFEkLk7" crossorigin="anonymous"></script>
+</body>
+
+</html>
