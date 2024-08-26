@@ -1,0 +1,108 @@
+/* คอมเม้นต์ใน CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: รหัสสี #0000FF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: รหัสสี #0000FF;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #FFCBDB;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #FFCBDB;
+    color: #eeebeb;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* CSS สำหรับเมนูนำทาง */
+.navbar {
+    background-color: #7ebeff; /* เปลี่ยนสีพื้นหลังของเมนูตามต้องการ */
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-item:hover > .nav-link {
+    background-color: #FFCBDB; /* bg color */
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(66, 211, 255);
+    border: 1px solid #ddd;
+    z-index: 1000;
+}
+
+.dropdown-menu .nav-link {
+    padding: 10px 15px;
+    white-space: nowrap;
+}
+
+.nav-item:hover > .dropdown-menu {
+    display: block;
+}
+/* CSS สำหรับการแสดงเมนูเมื่อคลิก */
+.dropdown-menu.show {
+    display: block;
+}
