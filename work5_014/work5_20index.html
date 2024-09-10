@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>ฟอร์มที่ตรวจสอบการเข้าสู่ระบบของผู้ใช้  </h3>
+    <h3>Name: สหรัถ อินต๊ะวิรา ,ID: 65122250014</h3>
+    <hr>
+
+    <form action="work5_20login.php" method="post">
+        <!-- 
+        ส่วนนี้ประกอบด้วยฟิลด์สำหรับกรอกชื่อผู้ใช้
+        ป้ายชื่อ "username" เชื่อมโยงกับฟิลด์กรอกชื่อผู้ใช้
+        คุณสมบัติ "required" ทำให้ฟิลด์นี้ไม่สามารถปล่อยว่างได้ก่อนที่จะส่งฟอร์ม
+        -->
+        <label for="username">username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <!-- 
+        ส่วนนี้ประกอบด้วยฟิลด์สำหรับกรอกรหัสผ่าน
+        ป้ายชื่อ "password" เชื่อมโยงกับฟิลด์กรอกรหัสผ่าน
+        คุณสมบัติ "required" ทำให้ฟิลด์นี้ไม่สามารถปล่อยว่างได้ก่อนที่จะส่งฟอร์ม
+        -->
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <!-- 
+        นี่คือปุ่มส่งสำหรับฟอร์ม
+        เมื่อคลิกปุ่มนี้ จะส่งข้อมูลของฟอร์มไปยัง "work5_20login.php" เพื่อการประมวลผล
+        -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
